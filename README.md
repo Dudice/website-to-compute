@@ -1,143 +1,134 @@
-# Your New Website 🤩
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stream Command Guide</title>
+  <style>
+    body {
+      background: #111;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 18px;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h2 {
+      color: #ffcc00;
+      margin-top: 1.5em;
+    }
+    code {
+      background: rgba(255,255,255,0.1);
+      padding: 2px 6px;
+      border-radius: 6px;
+      color: #00ffff;
+      font-weight: bold;
+    }
+    ul {
+      padding-left: 1.2em;
+    }
+    hr {
+      border: none;
+      border-top: 2px solid #444;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
 
-Oh hi! Welcome to your new website. 🛼
+<h1>📜 Stream Command Guide</h1>
 
-With this project you can make a website and preview it in your browser, then deploy it for free – you don't even need a host!
+<h2>🎮 Basic Commands</h2>
+<p><strong>!summon</strong> – Summon monsters and earn CP:</p>
+<ul>
+  <li>1 monster = +1 CP</li>
+  <li>2 monsters = +2 CP</li>
+  <li>3 monsters = +3 CP</li>
+  <li>Monster level: Your level −5 up to +5</li>
+</ul>
 
-**In this guide we'll learn how to deploy your project to <a href="https://www.fastly.com/products/edge-compute" target="_blank">Fastly Compute</a> – your deployment will automatically handle things like 404 errors, and your beautiful website will immediately be available for everyone, everywhere all at once. 🪄**
+<p><strong>!buff</strong> – Empower your hero:</p>
+<ul>
+  <li>Basic: +1 CP</li>
+  <li>Intermediate: +2 CP</li>
+  <li>Ultimate: +3 CP</li>
+</ul>
 
-> You can alternatively deploy your blog to other platforms, like <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+<p><strong>!potion</strong> – Open potion chests:</p>
+<ul>
+  <li>Red Potion = +1 CP</li>
+  <li>Yellow Potion = +2 CP</li>
+  <li>White Potion = +3 CP</li>
+</ul>
 
-## In this doc
+<hr>
 
-* [Fork your own site](#fork-your-own-site)
-* [Get to know your website](#get-to-know-your-website)
-  * [Share your draft site](#share-your-draft-site)
-* [Deploy your site to Fastly Compute](#deploy-your-site-to-fastly-compute)
-* [Save your edits to GitHub](#save-your-edits-to-github)
-* [How this project works](#how-this-project-works-)
-  * [Extensions](#extensions)
-* [Keep going! 🚀](#keep-going-)
+<h2>⚔️ Join Wave Battles</h2>
+<p><strong>!joinwave</strong> – Choose difficulty and fight waves:</p>
+<ul>
+  <li>Easy: +1 CP per wave</li>
+  <li>Medium: +2 CP per wave</li>
+  <li>Difficult: +3 CP per wave</li>
+</ul>
+<p>▪ 3 waves per session.<br>
+▪ Waves arrive every 30 minutes.<br>
+▪ Registration opens 5 minutes after the previous wave ends.<br>
+▪ Refer to the upper-left clock for wave timing.</p>
 
-## Fork your own site
+<hr>
 
-**Fork** [this repository](https://github.com/glitchdotcom/website-to-compute/) to create your own copy of the site.
+<h2>🧙‍♂️ Curse System</h2>
+<p><strong>!curse</strong> – High-risk CP battle:</p>
+<ul>
+  <li>Summons 1–4 monsters (Level: Hero +0 to +10)</li>
+  <li>If caster wins: +2× monster count CP, Top 1 loses monster count CP</li>
+  <li>If hero dies: Caster loses 2× monster count CP, Top 1 gains monster count CP</li>
+</ul>
 
-In your fork, open the site in a codespace by clicking **Code** > **Codespaces** and creating a new codespace on your main branch. 
+<hr>
 
-<img alt="Create codespace" src="https://github.com/user-attachments/assets/cb29a8da-d1ac-42f5-962c-7d43b8011324" width="400px"/><br/>
+<h2>🏹 Hero Hunts</h2>
+<p><strong>!hunt</strong> – Send your hero on a timed mission:</p>
+<ul>
+  <li>1 minute = +1 CP</li>
+  <li>3 minutes = +3 CP</li>
+  <li>5 minutes = +5 CP</li>
+</ul>
+<p>▪ Stack time up to a max of 60 minutes.<br>
+▪ Earn Hunt Points based on total hunt time.<br>
+▪ Climb the Hunt Leaderboard!</p>
 
-Give the codespace a minute or two to start up – it'll automatically build and preview your new website! 
+<hr>
 
-![this project in a codespace](https://github.com/user-attachments/assets/308941a8-ddbe-48f6-a8f0-c23cc615ed01)
+<h2>🗺️ Map Unlocking & Navigation</h2>
+<p><strong>!unlocknextmap</strong> – Unlock the next map in the progression:</p>
+<ul>
+  <li>Consumes the corresponding CP cost required to unlock.</li>
+  <li>Once unlocked, your hero is automatically teleported to the new map.</li>
+  <li>Type <code>!yes</code> to confirm and buy the map after using <code>!unlocknextmap</code>.</li>
+</ul>
 
-* When your website preview opens, click the **🔎 Split** button at the bottom so that you can see the site side by side with your code.
-* _You can close [x] the **Terminal** while you work._
 
-Make sure you [save your changes to GitHub](#save-your-edits-to-github).
+<p><strong>!warp mapname</strong> – Teleport to any unlocked map. <em>(Not yet implemented)</em></p>
 
-## Get to know your website
+<ul>
+  <li><code>!map</code> – View the Star Map</li>
+  <li><code>!game</code> – Return to the Main Game</li>
+  <li><code>!help</code> – Show Help Menu</li>
+</ul>
 
-You can make edits in the files by opening them from the left sidebar. Your website preview will update as you edit!
+<hr>
 
-💡 Try opening `index.html` and making a change.
+<h2>🚫 Rules of War</h2>
+<ul>
+  <li>No spamming commands.</li>
+  <li>Alternate commands—avoid repeats (e.g., <code>!summon</code> → <code>!buff</code>).</li>
+  <li>Strategic players rise; spammers are ignored.</li>
+  <li>Climb the Leaderboards to earn GCash prizes!</li>
+</ul>
 
-🎨 Change your site style rules in `style.css`.
-
-🖼️ Add images in the `public` folder – you'll find an example of including an image in the HTML.
-
-> 🚨⚠️ Danger zone: There are directories in the project that might break your site... 😱😈
->
-> * The `.devcontainer` folder includes the configuration that creates the experience in your codespace.
-> * The `helpers` folder contains some bash scripts that run when your project starts and when you hit the **🚀 Publish** button.
-
-### Share your draft site 
-
-You can share links to your draft site with collaborators – click **🔗 Share** at the bottom of the editor. The terminal output will include a link you can right-click and copy to share with anyone you like! 
-
-> This project includes a handy shortcut button for grabbing your preview URL but it might be a wee bit error prone 😅 you can also access these details in **💻 Terminal** > **PORTS** or by clicking the little Forwarded Ports icon: <img src="https://github.com/user-attachments/assets/6bfc0238-a0a8-434f-9188-ff1d45df0ca0" style="height:1em" alt="ports icon"/>
->
-> Change `private` to `public` by right-clicking your running port and choosing from the options.
->
-> Copy the URL to your clipboard and share it 📋.
-
-## Deploy your site to Fastly Compute
-
-Ready to unveil your site to the world? Deploy it to Fastly!
-
-Grab a Fastly API key from your account and add it to your GitHub repo:
-
-- Sign up for a <strong><a href="https://www.fastly.com/signup/" target="_blank">free Fastly developer account</a></strong>
-- Grab an **API Token** from **Account** > **API Tokens** > **Personal Tokens** > **Create Token**
-  - _Type_: Automation
-  - _Role_: Engineer
-  - _Scope_: Global (deselect the _Read-only access_ box)
-  - _Access_: All services
-  - _Expiration_: Never expire
-- **Copy the token value into GitHub**
-  - Back in your codespace, click into the textfield at the top of the editor and type `>` to access the command palette
-  - Type `secret` and select **Codespaces: Manage user secrets**
-    - <img alt="Secret command" src="https://github.com/user-attachments/assets/a6cfeac8-2aca-40a4-ab41-d207733b61cc" width="300px"/>
-  - Click **+ Add a new secret**
-    - <img alt="Add new secret" src="https://github.com/user-attachments/assets/350e545c-0073-4327-ac99-3663049e7aad" width="400px"/>
-  - Enter the name `FASTLY_API_TOKEN`
-    - <img alt="Fastly token" src="https://github.com/user-attachments/assets/536d1b2a-bf62-4085-aac4-ade7d2898583" width="400px"/>
-  - Paste your token value and enter
-
-In the notifications area at the bottom right of your codespace, you should see a prompt to **reload** for the new environment variable, so go ahead and click that (otherwise click the little bell 🔔 icon to check for the message).
-
-Hit the **🚀 Publish** button at the bottom of the editor, enter `y` and watch the **Terminal** output for your new site address! It might take a couple of minutes... 🥁
-
-![New Compute app address in the Terminal](https://github.com/user-attachments/assets/0a5a8f84-4907-4d60-83da-d3b90e745562)
-
-You'll see your new `*.edgecompute.app` address in the output. Open it in a new tab and tell everyone you know about your new site. 📣
-
-🎢 Whenever you update your content, hit the **🚀 Publish** button again to go live!
-
-## Save your edits to GitHub
-
-GitHub will keep the edits you make in the codespace only for a limited time, so it's a good idea to commit your work to a repo regularly. Use the **Source Control** button on the left of the editor – you can make commits, open and merge pull requests right inside the codespace. 
-
-<img alt="source control" src="https://github.com/user-attachments/assets/a5160b08-4f80-4a5f-af76-bde18a43427d" width="300px"/>
-
-> GitHub will notify you if any of your codespaces are about to expire. If you have changes you want to keep, you can use the **Export changes to a branch** option.
-> 
-> <img alt="export to branch" width="500px" src="https://github.com/user-attachments/assets/c7815347-3e5a-4e34-97f2-db58343acaa4"/>
-
-## How this project works 🧐
-
-This project uses the <a href="https://github.com/fastly/compute-js-static-publish" target="_blank">Fastly JavaScript Static Publisher</a> to turn your blog into a serverless app that runs at the network edge, near your users. 
-
-* The project uses [Vite](https://vite.dev/) to build your site for deployment, placing files in the `deploy/_site` folder.
-* The Static Publisher uses those files to scaffold a Compute app that compiles into Webassembly (Wasm) to run fast and securely on the Fastly network – you'll find the Compute code in `deploy/_app` after you deploy.
-* When you publish, the project deploys the app to Fastly, creating a service and uploading the Wasm to it.
-* It then then publishes your content to a KV Store – a key-value store that also runs on Fastly and that your app can talk to.
-
-_The app itself only needs deployed to Fastly once, when you click the **🚀 Publish** button after that, we just update the content in your KV Store and your Compute app will pull your assets from there._
-
-📝 Your Fastly service and KV Store will include your GitHub username and repo in their names, so you'll only be able to deploy one Compute app per repo unless you tweak the scripts.
-
-⚙️ The settings we use to create the guided experience in the codespace are in the `.devcontainer/` folder.
-
-🧰 You'll find the Fastly CLI commands we use under the hood in the `helpers/publish.sh` script.
-
-💻 If you check the right-hand side of the **Terminal** you'll find multiple processes – this is to run the vite and Fastly commands.
-
-### Extensions
-
-This project uses the following extensions from the dev community! 🙌
-
-* [VSCode Action Buttons Ext](https://marketplace.visualstudio.com/items?itemName=jkearins.action-buttons-ext)
-* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
-## Keep going! 🛸
-
-**Don't stop there, <a href="https://www.fastly.com/documentation/solutions/tutorials/deliver-your-site/#sending-domain-traffic-to-fastly" target="_blank">add a domain to your new site</a>.**
-
-You'll find your service in your Fastly account control panel – check out the **Observability** stats! 📊
-
-Check out more tips on using the <a href="https://github.com/fastly/compute-js-static-publish" target="_blank">Static Publisher</a> in its `README`. Note that if you change the Compute code, you'll need to run a separate deploy command to push your changes to Fastly as the **🚀 Publish** button only deploys once, after that it just updates your KV content.
-
-🛟 Get help on the <a href="https://community.fastly.com" target="_blank">community forum</a>.
-
-<img src="https://github.com/user-attachments/assets/17a8af4a-100f-416d-a1cf-f84174262138" width="100px"/>
+</body>
+</html>
